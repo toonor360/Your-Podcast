@@ -1,0 +1,23 @@
+{
+  "title": "Your Podcast Name",
+  "logo": "your-logo.svg",
+  "description": "Your podcast's amazing, interesting and inspiring description!\nWith multiple lines!",
+  "subDescription": "Created by: your name",
+  "tags": ["your tags", "are here"],
+  "platforms": [
+    {
+      "name": "youtube",
+      "link": "https://youtu.be/",
+      "icon": "youtube.png"
+    }
+  ],
+  "episodes": [
+    {
+      "title": "Episode 1: The Beginning of your journey",
+      "description": "The first episode of your podcast! Give credits to your guests and editors. But most importantly, make it interesting!",
+      "file": "your-episode.mp3",
+      "uploadDate": "Nov 7, 2024",
+      "image": "your-logo.svg"
+    }
+  ]
+}
