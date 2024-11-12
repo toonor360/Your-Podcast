@@ -26,9 +26,9 @@ export const App: FC = () => {
   };
 
   const startAudio = (epName: string) => () => {
-    const fileName = audioRef.current?.src.split("/").pop()?.split("?")[0];
+    const epTitle = audioRef.current?.title;
 
-    if (fileName === epName) {
+    if (epTitle === epName) {
       playAudio();
       return;
     }
@@ -79,6 +79,7 @@ export const App: FC = () => {
   const closeAudio = () => {
     audioRef.current?.pause();
     audioRef.current!.src = "";
+    audioRef.current!.title = "";
     setIsPlaying(false);
     setIsWhite(true);
     setSelectedEpisodeName(null);
